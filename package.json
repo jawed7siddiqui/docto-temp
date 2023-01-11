@@ -97,10 +97,10 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "webpack-dev-server --mode development --inline --progress",
-    "build": "webpack --mode production",
-    "dev": "webpack-dev-server",
-    "production": "webpack --mode production"
+    "start": "webpack-dev-server --openssl-legacy-provider --mode development --inline --progress",
+    "build": "webpack --openssl-legacy-provider --mode production",
+    "dev": "webpack-dev-server --openssl-legacy-provider ",
+    "production": "webpack --openssl-legacy-provider --mode production"
   },
   "eslintConfig": {
     "extends": "react-app"

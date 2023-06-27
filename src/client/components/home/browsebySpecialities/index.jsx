@@ -6,10 +6,10 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
    
        
         return(
-            <section className="section section-category">
+          <section id='ourbranch' className="section section-category" style={{paddingTop:"100px"}}>
           <div className="container">
             <div className="section-header text-center">
-              <h2>Browse by Specialities</h2>
+              <h2>Our Branches</h2>
               <p className="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div className="row">
@@ -19,7 +19,7 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
                     <img src={CAT01} alt="" />
                   </div>
                   <div className="category-content">
-                    <h4>Urology</h4>
+                    <h4>Howrah</h4>
                     <span>21 Doctors</span>
                   </div>
                 </div>
@@ -30,7 +30,7 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
                     <img src={CAT02} alt="" />
                   </div>
                   <div className="category-content">
-                    <h4>Neurology</h4>
+                    <h4>New Town</h4>
                     <span>18 Doctors</span>
                   </div>
                 </div>
@@ -41,7 +41,7 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
                     <img src={CAT03} alt="" />
                   </div>
                   <div className="category-content">
-                    <h4>Orthopedic</h4>
+                    <h4>Malda Town</h4>
                     <span>17 Doctors</span>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
                     <img src={CAT04} alt="" />
                   </div>
                   <div className="category-content">
-                    <h4>Cardiologist</h4>
+                    <h4>Hoogly</h4>
                     <span>12 Doctors</span>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
                     <img src={CAT05} alt="" />
                   </div>
                   <div className="category-content">
-                    <h4>Dentist</h4>
+                    <h4>Darjeeling</h4>
                     <span>07 Doctors</span>
                   </div>
                 </div>
@@ -74,7 +74,7 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
                     <img src={CAT01} alt="" />
                   </div>
                   <div className="category-content">
-                    <h4>Urology</h4>
+                    <h4>Jalpaiguri</h4>
                     <span>16 Doctors</span>
                   </div>
                 </div>
@@ -85,7 +85,7 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
                     <img src={CAT04} alt="" />
                   </div>
                   <div className="category-content">
-                    <h4>Cardiologist</h4>
+                    <h4>Purulia</h4>
                     <span>18 Doctors</span>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ import { CAT01,CAT02,CAT03,CAT04,CAT05 } from './img.jsx';
                     <img src={CAT03} alt="" />
                   </div>
                   <div className="category-content">
-                    <h4>Neurology</h4>
+                    <h4>Jhargram</h4>
                     <span>22 Doctors</span>
                   </div>
                 </div>

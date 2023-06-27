@@ -56,7 +56,7 @@ const HomeBookDoctor = (props) => {
        <div className="row">
             <div className="col-lg-4">
                 <div className="section-header aos" data-aos="fade-up">
-                    <h2>Book Our Doctor</h2>
+                    {/* <h2>Our Doctors</h2> */}
                     <p>Lorem Ipsum is simply dummy text </p>
                 </div>
                 <div className="about-content aos" data-aos="fade-up">

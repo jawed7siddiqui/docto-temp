@@ -1,5 +1,9 @@
 export { default as drslider} from '../../assets/images/dr-slider.png';
+
 export { default as banner1} from '../../assets/images/banner-1.png';
+// export { default as banner1} from '../../assets/images/banner-2.jpg';    
+
+
 export { default as banner4} from '../../assets/images/banner-4.jpg';
 export { default as browse1} from '../../assets/images/browse/browse-img1.jpg';
 export { default as browse2} from '../../assets/images/browse/browse-img2.jpg';

@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import { Link } from "react-router-dom";
-import logo from "../assets/images/footer-logo.png";
+import logo from "../assets/images/logo-white.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -85,19 +85,10 @@ const Footer = (props) => {
                     <h2 className="footer-title">For Patients</h2>
                     <ul>
                       <li>
-                        <Link to="/patient/search-doctor">Search for Doctors</Link>
+                        <Link to="/patient/search-doctor">First</Link>
                       </li>
                       <li>
-                        <Link to="/login">Login</Link>
-                      </li>
-                      <li>
-                        <Link to="/register">Register</Link>
-                      </li>
-                      <li>
-                        <Link to="/patient/booking">Booking</Link>
-                      </li>
-                      <li>
-                        <Link to="/patient/dashboard">Patient Dashboard</Link>
+                        <Link to="/login">Second</Link>
                       </li>
                     </ul>
                   </div>
@@ -108,19 +99,10 @@ const Footer = (props) => {
                     <h2 className="footer-title">For Doctors</h2>
                     <ul>
                       <li>
-                        <Link to="/doctor/appointments">Appointments</Link>
+                        <Link to="/doctor/appointments">First</Link>
                       </li>
                       <li>
-                        <Link to="/doctor/chat-doctor">Chat</Link>
-                      </li>
-                      <li>
-                        <Link to="/login">Login</Link>
-                      </li>
-                      <li>
-                        <Link to="/doctor/doctor-register">Register</Link>
-                      </li>
-                      <li>
-                        <Link to="/doctor/doctor-dashboard">Doctor Dashboard</Link>
+                        <Link to="/doctor/chat-doctor">Second</Link>
                       </li>
                     </ul>
                   </div>
@@ -136,16 +118,16 @@ const Footer = (props) => {
                         </span>
                         <p>
                           {" "}
-                          3556 Beech Street, San Francisco,California, CA 94108{" "}
+                          3WS4B,West Tower, Mani Casadona, New Town, West Bengal Kolkata- 700 156, India{" "}
                         </p>
                       </div>
                       <p>
                         <i className="fa fa-phone" aria-hidden="true"></i>
-                        +1 315 369 5943
+                        + 91 33 40016243
                       </p>
                       <p className="mb-0">
                         <i className="fa fa-envelope" aria-hidden="true"></i>
-                        doccure@example.com
+                        info@clinicyantra.com
                       </p>
                     </div>
                   </div>

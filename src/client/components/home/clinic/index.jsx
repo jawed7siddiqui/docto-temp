@@ -46,78 +46,78 @@ import "aos/dist/aos.css";
           };
         return(
             <>
-    <section className="section section-specialities">
-    <div className="container-fluid">
-        <div className="section-header text-center aos" data-aos="fade-up">
-            <h2>Clinic and Specialities</h2>
-            <p className="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div className="row justify-content-center">
-            <div className="col-md-9 aos" data-aos="fade-up">
-                <div className="specialities-slider slider">
-                <Slider {...settings}>
-                    <div>
-                        <div className="speicality-item text-center">
-                            <div className="speicality-img">
-                                    <img src={IMG01} className="img-fluid" alt="Speciality" />
-                                    <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                </div>
-                                <p>Urology</p>
-                            </div>	
-                        </div>
-                    <div>
-                        <div className="speicality-item text-center">
-                            <div className="speicality-img">
-                                    <img src={IMG02} className="img-fluid" alt="Speciality" />
-                                    <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                </div>
-                                <p>Neurology</p>	
-                            </div>	
-                        </div>
-                    <div>
-                    <div className="speicality-item text-center">
-                        <div className="speicality-img">
-                            <img src={IMG03} className="img-fluid" alt="Speciality" />
-                            <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                        </div>	
-                          <p>Orthopedic</p>	
-                        </div>	
-                    </div>
-                    <div>
-                    <div className="speicality-item text-center">
-                        <div className="speicality-img">
-                            <img src={IMG04} className="img-fluid" alt="Speciality" />
-                            <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                        </div>	
-                        <p>Cardiologist</p>	
-                    </div>			
-                    </div>
-                    <div>
-                    <div className="speicality-item text-center">
-                                <div className="speicality-img">
-                                    <img src={IMG05} className="img-fluid" alt="Speciality" />
-                                    <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                </div>	
-                                <p>Dentist</p>
-                            </div>	
-                    </div>
-                    <div>
-                        <div className="speicality-item text-center">
+            {/* <section className="section section-specialities">
+            <div className="container-fluid">
+                <div className="section-header text-center aos" data-aos="fade-up">
+                    <h2>Clinic and Specialities</h2>
+                    <p className="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div className="row justify-content-center">
+                    <div className="col-md-9 aos" data-aos="fade-up">
+                        <div className="specialities-slider slider">
+                        <Slider {...settings}>
+                            <div>
+                                <div className="speicality-item text-center">
                                     <div className="speicality-img">
-                                        <img src={IMG01} className="img-fluid" alt="Speciality" />
-                                        <span><i className="fa fa-circle" aria-hidden="true"></i></span>
-                                    </div>
-                                    <p>Urology</p>
+                                            <img src={IMG01} className="img-fluid" alt="Speciality" />
+                                            <span><i className="fa fa-circle" aria-hidden="true"></i></span>
+                                        </div>
+                                        <p>Urology</p>
+                                    </div>	
+                                </div>
+                            <div>
+                                <div className="speicality-item text-center">
+                                    <div className="speicality-img">
+                                            <img src={IMG02} className="img-fluid" alt="Speciality" />
+                                            <span><i className="fa fa-circle" aria-hidden="true"></i></span>
+                                        </div>
+                                        <p>Neurology</p>	
+                                    </div>	
+                                </div>
+                            <div>
+                            <div className="speicality-item text-center">
+                                <div className="speicality-img">
+                                    <img src={IMG03} className="img-fluid" alt="Speciality" />
+                                    <span><i className="fa fa-circle" aria-hidden="true"></i></span>
                                 </div>	
-                
+                                <p>Orthopedic</p>	
+                                </div>	
+                            </div>
+                            <div>
+                            <div className="speicality-item text-center">
+                                <div className="speicality-img">
+                                    <img src={IMG04} className="img-fluid" alt="Speciality" />
+                                    <span><i className="fa fa-circle" aria-hidden="true"></i></span>
+                                </div>	
+                                <p>Cardiologist</p>	
+                            </div>			
+                            </div>
+                            <div>
+                            <div className="speicality-item text-center">
+                                        <div className="speicality-img">
+                                            <img src={IMG05} className="img-fluid" alt="Speciality" />
+                                            <span><i className="fa fa-circle" aria-hidden="true"></i></span>
+                                        </div>	
+                                        <p>Dentist</p>
+                                    </div>	
+                            </div>
+                            <div>
+                                <div className="speicality-item text-center">
+                                            <div className="speicality-img">
+                                                <img src={IMG01} className="img-fluid" alt="Speciality" />
+                                                <span><i className="fa fa-circle" aria-hidden="true"></i></span>
+                                            </div>
+                                            <p>Urology</p>
+                                        </div>	
+                        
+                            </div>
+                            </Slider>
+                        </div>    
                     </div>
-                    </Slider>
-                </div>    
-            </div>
-        </div>
-    </div>   
-</section>
-</>	 
+                </div>
+            </div>   
+            </section> */}
+            </>	 
         );
     }
 

@@ -41,10 +41,10 @@ import Slider from "react-slick";
 
           };
         return(
-            <section className="section section-doctor">
+            <section id='ourdoctors' className="section section-doctor" style={{paddingTop:"100px"}}>
           <div className="container-fluid">
             <div className="section-header text-center">
-              <h2>Book Our Best Doctor</h2>
+              <h2>Our Doctors</h2>
               <p className="sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
             <div className="row">

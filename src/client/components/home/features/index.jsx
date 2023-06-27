@@ -50,7 +50,8 @@ import "aos/dist/aos.css";
     ]
     };
     return (
-      <section className="section section-features">
+      <>
+      {/* <section className="section section-features">
         <div className="container-fluid">
           <div className="row">
             <div className="col-md-5 features-img aos" data-aos="fade-up">
@@ -126,7 +127,8 @@ import "aos/dist/aos.css";
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      </>
     );
   }
 

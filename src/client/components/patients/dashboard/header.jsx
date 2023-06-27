@@ -97,9 +97,9 @@ const Header = (props) => {
                   <span></span>
                 </span>
               </a>
-              <Link to="/home" className="navbar-brand logo">
+              <a to="#" className="navbar-brand logo">
                 <img src={logo} className="img-fluid" alt="Logo" />
-              </Link>
+              </a>
             </div>
             <div className="main-menu-wrapper">
               <div className="menu-header">
@@ -353,7 +353,7 @@ const Header = (props) => {
                 </div>
                 <div className="header-contact-detail">
                   <p className="contact-header">Contact</p>
-                  <p className="contact-info-header"> +1 315 369 5943</p>
+                  <p className="contact-info-header"> + 91 33 40016243</p>
                 </div>
               </li>
     

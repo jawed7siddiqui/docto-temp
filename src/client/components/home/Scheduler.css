@@ -1,0 +1,33 @@
+.scheduler {
+    margin-top: 20px;
+  }
+  
+  .time-slots {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .time-slot {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .time-slot:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .selected {
+    background-color: #a9d2a9;
+  }
+  
+  .selected-event {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .search-area{
+    max-width: 100% !important;
+    min-height: 400px;
+  }

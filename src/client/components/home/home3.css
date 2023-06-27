@@ -1,0 +1,37 @@
+.section.section-search-2{
+    margin-top: 90px;
+}
+.search-area.bg-white{
+    padding: 20px 30px;
+}
+.form-group{
+    margin-bottom: 0;
+}
+.section.section-specialities{
+    padding: 0;
+}
+.section-category{
+    padding: 0;
+}
+.section.section-category{
+    padding: 0;
+}
+.section.section-doctor{
+    padding: 0;
+}
+.section.section-features{
+    padding: 0;
+}
+
+.section.section-search-{
+    /* padding-top: 30px; */
+}
+.form-group{
+    margin-bottom: 10px !important;
+}
+footer{
+    margin-top: 50px;
+}
+.container-fluid{
+    max-width: 1650px !important;
+}
